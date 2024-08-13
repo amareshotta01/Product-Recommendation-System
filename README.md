@@ -9,7 +9,9 @@ Overview:
   The system is designed to cater to different stages of the customer journey, from the first visit to repeat purchases. The recommendation system is divided into    three main parts, each addressing a specific business scenario:
 
   Part I: Popularity-Based Recommendation System targeted at new customers.
+  
   Part II: Model-Based Collaborative Filtering System for customers with purchase history.
+  
   Part III: Content-Based Recommendation System for businesses setting up their e-commerce platform without any user-item interaction history.
 
 

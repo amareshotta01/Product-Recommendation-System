@@ -2,7 +2,8 @@ The file for the Datasets used : https://drive.google.com/drive/folders/117B6-tl
 
 
                                               Product Recommendation System for E-Commerce Businesses
-Overview
+Overview: 
+
 A well-developed recommendation system can significantly enhance the shopper's experience on an e-commerce website, leading to improved customer acquisition and retention. This project implements a comprehensive Product Recommendation System that helps businesses recommend products to their customers based on various contexts.
 
 The system is designed to cater to different stages of the customer journey, from the first visit to repeat purchases. The recommendation system is divided into three main parts, each addressing a specific business scenario:
@@ -10,13 +11,14 @@ The system is designed to cater to different stages of the customer journey, fro
 Part I: Popularity-Based Recommendation System targeted at new customers.
 Part II: Model-Based Collaborative Filtering System for customers with purchase history.
 Part III: Content-Based Recommendation System for businesses setting up their e-commerce platform without any user-item interaction history.
-Project Structure
-Recommendation System - Part I: Popularity-Based Recommendations
 
-Purpose: Recommend the most popular products to new customers who do not have any purchase history.
-Approach: Uses the number of ratings to identify and recommend the most popular products on the website.
-Dataset: "ratings_Beauty.csv"
-Recommendation System - Part II: Model-Based Collaborative Filtering
+Project Structure
+  Recommendation System - Part I: Popularity-Based Recommendations
+
+    Purpose: Recommend the most popular products to new customers who do not have any purchase history.
+    Approach: Uses the number of ratings to identify and recommend the most popular products on the website.
+    Dataset: "ratings_Beauty.csv"
+    Recommendation System - Part II: Model-Based Collaborative Filtering
 
 Purpose: Recommend products to users based on their purchase history and the ratings provided by other users who bought similar items.
 Approach: Utilizes collaborative filtering techniques by building a utility matrix from user-item interactions, applying matrix factorization, and generating recommendations based on product correlations.
